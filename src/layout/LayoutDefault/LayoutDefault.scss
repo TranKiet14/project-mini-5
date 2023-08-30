@@ -1,0 +1,59 @@
+.layout-default{
+    &__header{
+        background: orange;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 20px;
+    }
+    &__logo{
+        color: #fff;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    &__main{
+        padding: 50px;
+    }
+    &__footer{
+        background: orange;
+        text-align: center;
+        padding: 10px 20px;
+    }
+}
+.menu {
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        li{
+            margin-left: 20px;
+            position: relative;
+        }
+    }
+    &__item{
+        color: #fff;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 600;
+        padding: 5px 15px;
+        border-radius: 10px;
+        margin-left: 10px;
+        &--active{
+            background: orangered;
+        }
+    }
+}
+.account{
+    &__item{
+        color: #fff;
+        text-decoration: none;
+        padding: 5px 10px;
+        margin-left: 5px;
+        font-weight: 500;
+        border-radius: 7px;
+        &--active{
+            background: orangered;
+        }
+    }
+}
